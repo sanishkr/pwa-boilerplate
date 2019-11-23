@@ -5,7 +5,7 @@ import tw from 'tailwind.macro';
 import Link from 'next/link';
 
 const StyledNav = styled.nav`
-  ${tw`flex items-center justify-between flex-wrap bg-teal-500 p-6`}
+  ${tw`flex items-center justify-between flex-wrap bg-gray-900 p-6`}
 `;
 
 const Header = ({ router }) => {
