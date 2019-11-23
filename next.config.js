@@ -35,8 +35,6 @@ const isDev = NODE_ENV === 'development';
 const nextConfig = {
   serverRuntimeConfig: {
     isServer: true,
-  },
-  publicRuntimeConfig: {
     env: ENV,
     configs: configs[ENV],
   },
@@ -53,7 +51,7 @@ const nextConfig = {
     },
   },
   // manifest,
-  // target: 'serverless',
+  target: 'serverless',
   // dontAutoRegisterSw: true,
   // devSwSrc: 'public/service-worker.js',
   // generateInDevMode: true,
