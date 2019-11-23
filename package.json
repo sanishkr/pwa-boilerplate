@@ -1,5 +1,5 @@
 {
-  "name": "next-tailwind-styled-components",
+  "name": "pwa-boilerplate",
   "version": "1.0.0",
   "description": "NextJS boilerplate with Tailwind CSS and Styled-Components",
   "main": "index.js",
@@ -41,7 +41,6 @@
     "babel-plugin-macros": "^2.6.1",
     "express": "^4.17.1",
     "next": "^9.1.1",
-    "next-i18next": "^2.0.0",
     "next-offline": "^4.0.6",
     "next-redux-wrapper": "^4.0.1",
     "next-routes": "^1.4.2",
@@ -87,7 +86,6 @@
     "redux-devtools-extension": "^2.13.8",
     "redux-logger": "^3.0.6",
     "tailwind.macro": "^1.0.0-alpha.10",
-    "tailwindcss-dir": "^4.0.0",
     "webpack-bundle-size-analyzer": "^3.1.0"
   }
 }

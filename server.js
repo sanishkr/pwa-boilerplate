@@ -3,11 +3,9 @@ const { join } = require('path');
 const { parse } = require('url');
 const compression = require('compression');
 const next = require('next');
-const nextI18NextMiddleware = require('next-i18next/middleware').default;
 // const Cookies = require("universal-cookie");
 
 const routes = require('./routes');
-const nextI18next = require('./i18n');
 
 const port = process.env.PORT || 3000;
 const app = next({ dev: process.env.NODE_ENV !== 'production' });
@@ -43,7 +41,7 @@ app
         app.render(req, res, route.page, query);
       },
     );
-    server.use(nextI18NextMiddleware(nextI18next)).use(handler);
+    server.use(handler);
     server.get('*', (req, res) => handle(req, res));
     server.listen(port, err => {
       if (err) throw err;

@@ -1,7 +1,6 @@
 /* eslint-disable react/react-in-jsx-scope */
 import Document, { Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
-import { parseCookies } from 'nookies';
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const sheet = new ServerStyleSheet();
@@ -13,12 +12,6 @@ export default class MyDocument extends Document {
           enhanceApp: App => props => sheet.collectStyles(<App {...props} />),
         });
       const initialProps = await Document.getInitialProps(ctx);
-      const cookies = parseCookies(ctx);
-      // console.log("ctx: ", ctx);
-      // console.log("cookies: ", cookies);
-
-      initialProps.language = cookies['next-i18next'] || 'en';
-      initialProps.direction = initialProps.language === 'ar' ? 'rtl' : 'ltr';
       return {
         html,
         head,
@@ -37,9 +30,8 @@ export default class MyDocument extends Document {
     }
   }
   render() {
-    const { language, direction } = this.props;
     return (
-      <html dir={direction} lang={language}>
+      <html dir="ltr" lang="en">
         <Head></Head>
         <body>
           {this.props.customValue}
