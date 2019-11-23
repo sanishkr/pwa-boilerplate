@@ -6,6 +6,6 @@ module.exports = {
     api: 'https://api.stage.com',
   },
   production: {
-    api: 'https://api.production.com',
+    api: 'https://jsonplaceholder.typicode.com',
   },
 };
