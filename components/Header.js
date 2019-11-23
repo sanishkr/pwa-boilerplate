@@ -11,20 +11,22 @@ const StyledNav = styled.nav`
 const Header = ({ router }) => {
   return (
     <StyledNav>
-      <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <span className="font-semibold text-xl tracking-tight">
-          Tailwind CSS
-        </span>
+      <div css={tw`flex items-center flex-shrink-0 text-white mr-6`}>
+        <span css={tw`font-semibold text-xl tracking-tight`}>Tailwind CSS</span>
       </div>
-      <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-        <div className="text-sm lg:flex-grow">
+      <div css={tw`w-full block flex-grow lg:flex lg:items-center lg:w-auto`}>
+        <div css={tw`text-sm lg:flex-grow`}>
           <Link href="/page1">
-            <button className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            <button
+              css={tw`block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4`}
+            >
               Page1
             </button>
           </Link>
           <Link href="/page2">
-            <button className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            <button
+              css={tw`block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4`}
+            >
               Page2
             </button>
           </Link>
