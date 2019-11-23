@@ -1,0 +1,18 @@
+{
+  "short_name": "next-tailwind-styled-component",
+  "name": "next-tailwind-styled-component",
+  "description": "NextJS boilerplate with Tailwind CSS and Styled-Components",
+  "dir": "ltr",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "images/logo.png",
+      "sizes": "512x512 384x384 192x192 144x144 152x152 120x120 64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/page2",
+  "display": "standalone",
+  "theme_color": "#317EFB",
+  "background_color": "#317EFB"
+}
