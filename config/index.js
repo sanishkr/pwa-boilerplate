@@ -8,4 +8,4 @@ module.exports = {
   production: {
     api: 'https://jsonplaceholder.typicode.com',
   },
-};
+}[process.env.NODE_ENV];

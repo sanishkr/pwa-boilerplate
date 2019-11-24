@@ -8,7 +8,7 @@ const {
 const path = require('path');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
-const configs = require('./config');
+// const configs = require('./config');
 const ENV = process.env.ENV || 'development';
 const NODE_ENV = process.env.NODE_ENV || 'development';
 const isDev = NODE_ENV === 'development';
@@ -33,11 +33,11 @@ const isDev = NODE_ENV === 'development';
 //   }
 // }
 const nextConfig = {
-  serverRuntimeConfig: {
-    isServer: true,
-    env: ENV,
-    configs: configs[ENV],
-  },
+  // serverRuntimeConfig: {
+  //   isServer: true,
+  //   env: ENV,
+  //   configs: configs[ENV],
+  // },
   analyzeServer: ['server', 'both'].includes(process.env.BUNDLE_ANALYZE),
   analyzeBrowser: ['browser', 'both'].includes(process.env.BUNDLE_ANALYZE),
   bundleAnalyzerConfig: {

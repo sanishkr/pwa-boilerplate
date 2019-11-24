@@ -3,8 +3,6 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import tw from 'tailwind.macro';
 
-// import getConfig from 'next/config';
-
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
@@ -15,7 +13,6 @@ import {
 import Header from '../components/Header';
 
 import '../assets/css/pages/page1.css';
-// const { serverRuntimeConfig, publicRuntimeConfig } = getConfig();
 
 const Container = styled.div`
   ${tw`bg-gray-800 min-h-screen flex flex-col items-center justify-center text-xl`};
@@ -35,8 +32,6 @@ class Page1 extends Component {
     // this.props.getOnePost({ id: 1 });
   };
   render() {
-    // console.log(this.props);
-
     return (
       <>
         <Header></Header>
