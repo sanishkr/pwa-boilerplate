@@ -1,7 +1,11 @@
 # NextJS boilerplate with Tailwind CSS and Styled-Components
 
 It provides the best of all worlds.
+***
+[<img src="./public/images/Screenshot-pwa-chrome-audit.png">](https://pwa-boilerplate.now.sh/page1)
 
+Open in incognito mode for audit.
+***
 ## Todo
 
 - [x] Basic Setup
@@ -24,9 +28,7 @@ It provides the best of all worlds.
 - [ ] Theming [WIP]
 - [x] Environment Setup [WIP]
 - [x] Storybook [Done] / style guidist [Backlog]
-- [ ] socket.io / kafka [Backlog]
-- [x] Lighthouse Scores [Performance ~ 97, others 100]
+- [x] Lighthouse Scores [~100]
 - [ ] Docker setup
-- [ ] Playing videos / images
 - [x] Auto-deployment to now.sh - NOW config
 - [ ] Others
