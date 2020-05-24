@@ -12,8 +12,6 @@ import {
 } from '../store/posts';
 import Header from '../components/Header';
 
-import '../assets/css/pages/page1.css';
-
 const Container = styled.div`
   ${tw`flex flex-col items-center justify-center min-h-screen text-xl bg-gray-800`};
   margin: 10px;

@@ -2,8 +2,6 @@ import React from 'react';
 import ArticlesList from '../layouts/ArticlesList';
 import Header from '../components/Header';
 
-import '../assets/css/pages/page2.css';
-
 const articlesData = [
   {
     id: 1,

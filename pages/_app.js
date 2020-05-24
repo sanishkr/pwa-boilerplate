@@ -8,6 +8,8 @@ import withRedux from 'next-redux-wrapper';
 import { Provider } from 'react-redux';
 import makeStore from '../store';
 
+import '../assets/css/index.css';
+
 class NextApp extends App {
   render() {
     const { Component, pageProps, store } = this.props;

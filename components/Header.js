@@ -16,14 +16,14 @@ const Header = ({ router }) => {
       </div>
       <div css={tw`flex-grow block w-full lg:flex lg:items-center lg:w-auto`}>
         <div css={tw`text-sm lg:flex-grow`}>
-          <Link href="/page1">
+          <Link href="/">
             <button
               css={tw`block mt-4 mr-4 text-teal-200 lg:inline-block lg:mt-0 hover:text-white`}
             >
               Page1
             </button>
           </Link>
-          <Link href="/page2">
+          <Link href="/posts">
             <button
               css={tw`block mt-4 mr-4 text-teal-200 lg:inline-block lg:mt-0 hover:text-white`}
             >
