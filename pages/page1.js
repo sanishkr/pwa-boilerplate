@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import styled from 'styled-components';
-import tw from 'tailwind.macro';
+import tw from 'twin.macro';
 
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
@@ -15,7 +15,7 @@ import Header from '../components/Header';
 import '../assets/css/pages/page1.css';
 
 const Container = styled.div`
-  ${tw`bg-gray-800 min-h-screen flex flex-col items-center justify-center text-xl`};
+  ${tw`flex flex-col items-center justify-center min-h-screen text-xl bg-gray-800`};
   margin: 10px;
 `;
 

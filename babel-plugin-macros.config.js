@@ -1,7 +1,7 @@
 module.exports = {
-  tailwind: {
+  twin: {
     config: './tailwind.config.js',
-    styled: 'styled-components/macro',
+    styled: 'styled-components',
   },
   styledComponents: {
     pure: true,

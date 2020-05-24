@@ -1,31 +1,31 @@
 import React from 'react';
 
 import styled from 'styled-components';
-import tw from 'tailwind.macro';
+import tw from 'twin.macro';
 import Link from 'next/link';
 
 const StyledNav = styled.nav`
-  ${tw`flex items-center justify-between flex-wrap bg-gray-900 p-6`}
+  ${tw`flex flex-wrap items-center justify-between p-6 bg-gray-900`}
 `;
 
 const Header = ({ router }) => {
   return (
     <StyledNav>
-      <div css={tw`flex items-center flex-shrink-0 text-white mr-6`}>
-        <span css={tw`font-semibold text-xl tracking-tight`}>Tailwind CSS</span>
+      <div css={tw`flex items-center flex-shrink-0 mr-6 text-white`}>
+        <span css={tw`text-xl font-semibold tracking-tight`}>Tailwind CSS</span>
       </div>
-      <div css={tw`w-full block flex-grow lg:flex lg:items-center lg:w-auto`}>
+      <div css={tw`flex-grow block w-full lg:flex lg:items-center lg:w-auto`}>
         <div css={tw`text-sm lg:flex-grow`}>
           <Link href="/page1">
             <button
-              css={tw`block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4`}
+              css={tw`block mt-4 mr-4 text-teal-200 lg:inline-block lg:mt-0 hover:text-white`}
             >
               Page1
             </button>
           </Link>
           <Link href="/page2">
             <button
-              css={tw`block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4`}
+              css={tw`block mt-4 mr-4 text-teal-200 lg:inline-block lg:mt-0 hover:text-white`}
             >
               Page2
             </button>

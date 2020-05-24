@@ -39,8 +39,9 @@
     "@zeit/next-css": "^1.0.1",
     "axios": "^0.19.0",
     "babel-plugin-macros": "^2.6.1",
+    "compression": "^1.7.4",
     "express": "^4.17.1",
-    "next": "^9.1.1",
+    "next": "^9.4.2",
     "next-offline": "^4.0.6",
     "next-redux-wrapper": "^4.0.1",
     "next-routes": "^1.4.2",
@@ -52,8 +53,9 @@
     "redux": "^4.0.4",
     "redux-promise-middleware": "^6.1.2",
     "redux-thunk": "^2.3.0",
-    "styled-components": "^4.4.0",
-    "tailwindcss": "^1.1.2",
+    "styled-components": "^5.1.0",
+    "tailwindcss": "^1.4.6",
+    "twin.macro": "^1.2.0",
     "type-to-reducer": "^1.2.0"
   },
   "devDependencies": {
@@ -85,7 +87,6 @@
     "prettier": "^1.19.1",
     "redux-devtools-extension": "^2.13.8",
     "redux-logger": "^3.0.6",
-    "tailwind.macro": "^1.0.0-alpha.10",
     "webpack-bundle-size-analyzer": "^3.1.0"
   }
 }
