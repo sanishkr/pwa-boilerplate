@@ -2,11 +2,10 @@ import React from 'react';
 import App from 'next/app';
 import Head from 'next/head';
 
-import { ThemeProvider } from 'styled-components';
-
 import withRedux from 'next-redux-wrapper';
 import { Provider } from 'react-redux';
 import makeStore from '../store';
+import AppTheme from '../components/AppTheme';
 
 import '../assets/css/index.css';
 
@@ -24,14 +23,14 @@ class NextApp extends App {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta
             name="Description"
-            content="NextJS, tailwind.css, Styled Components | PWA Boilerplate"
+            content="NextJS with TailwindCSS, Framer-Motion and Styled-Components | PWA Boilerplate"
           />
           {/* <link rel="icon" sizes="192x192" href={favicon} /> */}
         </Head>
         <Provider store={store}>
-          <ThemeProvider theme={{}}>
+          <AppTheme>
             <Component {...pageProps} />
-          </ThemeProvider>
+          </AppTheme>
         </Provider>
       </>
     );

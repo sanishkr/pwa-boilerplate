@@ -13,7 +13,7 @@ import {
 import Header from '../components/Header';
 
 const Container = styled.div`
-  ${tw`flex flex-col items-center justify-center min-h-screen text-xl bg-gray-800`};
+  ${tw`flex flex-col items-center justify-center min-h-screen text-xl`};
   margin: 10px;
 `;
 
@@ -36,9 +36,10 @@ class Page1 extends Component {
         <div css={tw`text-center`}>
           <Container>
             Hello World!!
-            <p css={tw`text-blue-300`}>
-              I'm using <code>tailwind</code> and <code>styled-components</code>{' '}
-              together in {process.env.NODE_ENV} Env.
+            <p css={tw`mx-20 mt-8`}>
+              I'm using <code>NextJS</code>, <code>TailwindCSS</code>,{' '}
+              <code>framer-motion</code> and <code>styled-components</code>{' '}
+              together in `{process.env.NODE_ENV}` Env.
             </p>
           </Container>
         </div>

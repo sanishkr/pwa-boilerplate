@@ -25,7 +25,8 @@ Open in incognito mode for audit.
 - [x] Cookies
 - [x] Linting Rules (eslint)
 - [x] Formatting Rules (prettier)
-- [ ] Theming [WIP]
+- [x] Theming - Perfect SSR Dark mode
+- [x] Framer Motion - Animation
 - [x] Environment Setup [WIP]
 - [x] Storybook [Done] / style guidist [Backlog]
 - [x] Lighthouse Scores [~100]

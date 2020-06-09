@@ -1,6 +1,7 @@
 /* eslint-disable react/react-in-jsx-scope */
 import Document, { Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
+import { MagicScriptTag } from '../assets/js/MagicScriptTag';
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const sheet = new ServerStyleSheet();
@@ -32,7 +33,9 @@ export default class MyDocument extends Document {
   render() {
     return (
       <html dir="ltr" lang="en">
-        <Head></Head>
+        <Head>
+          <MagicScriptTag />
+        </Head>
         <body>
           {this.props.customValue}
           <Main />
