@@ -31,5 +31,6 @@ Open in incognito mode for audit.
 - [x] Storybook [Done] / style guidist [Backlog]
 - [x] Lighthouse Scores [~100]
 - [ ] Docker setup
+- [ ] Lighthouse CI setup
 - [x] Auto-deployment to now.sh - NOW config
 - [ ] Others
