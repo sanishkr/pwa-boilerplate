@@ -1,0 +1,47 @@
+{
+  "name": "pwa-boilerplate",
+  "version": "1.0.0",
+  "description": "NextJS boilerplate with Tailwind CSS and Styled-Components",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "^11.1.9",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "styled-components": "^6.1.10"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-typescript": "^7.24.1",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "babel-loader": "^9.1.3",
+    "babel-plugin-macros": "^3.1.0",
+    "babel-plugin-styled-components": "^2.1.4",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.3",
+    "twin.macro": "^3.4.1",
+    "typescript": "^5"
+  },
+  "keywords": [
+    "nextjs",
+    "tailwindcss",
+    "styled components",
+    "reactjs",
+    "pwa",
+    "redux",
+    "seo",
+    "critical css",
+    "workbox"
+  ],
+  "author": "SNS",
+  "license": "ISC"
+}
